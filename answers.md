@@ -338,7 +338,7 @@ public:
     Point(double x, double y);
     Point(const Point& other);
 
-    friend ostream& operator>>(ostream& os, const Point& point);B
+    friend ostream& operator>>(ostream& os, const Point& point);
 }
 ```
 
