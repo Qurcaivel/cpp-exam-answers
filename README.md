@@ -1909,20 +1909,20 @@ public:
     }
 
     ~add_class(){ 
-		cout << "Destructor " << num << endl; 
-	}
+	cout << "Destructor " << num << endl; 
+    }
 
     void show_num(){
-		cout << " " << num << " "; 
-	}
+	cout << " " << num << " "; 
+    }
 
     void input_num(unsigned short a){ 
-		num = a; 
-	}
+    	num = a; 
+    }
 
     unsigned short output_num(){
-		return num;
-	}
+    	return num;
+    }
 };
 
 add_class add(add_class a,add_class b){ 
@@ -1945,7 +1945,7 @@ void main(){
         s.show_num();
         cout << endl;
     } 
-	catch(int){
+    catch(int){
         cout << "Overflow error" << endl;
     }
 }
